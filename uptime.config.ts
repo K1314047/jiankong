@@ -3,10 +3,10 @@ const pageConfig = {
   title: "数字套利 •「AM科技」's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://amclubss.com', label: '博客', highlight: true },
-    { link: 'https://809098.xyz', label: 'Blog'},
-    { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
-    { link: 'https://github.com/amclubs', label: 'GitHub' }, 
+    { link: 'https://1314047.xyz', label: 'Home Page' },
+    { link: 'https://blog.1314047.xyz', label: 'Blog', highlight: true },
+    { link: 'https://x.com/ayig61', label: 'Twitter'},
+    { link: 'https://github.com/K1314047', label: 'GitHub' }, 
   ],
 }
 
@@ -67,6 +67,75 @@ const workerConfig = {
       target: 'https://duan.1314047.xyz',
       timeout: 10000,
     },
+      id: 'blog.1314047.xyz',
+      name: 'Blog',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://blog.1314047.xyz',
+      timeout: 10000,
+    },
+      id: 'nav.1314047.xyz',
+      name: '导航站',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://nav.1314047.xyz',
+      timeout: 10000,
+    },    
+    },
+      id: 'pyq.1314047.xyz',
+      name: '朋友圈',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://pyq.1314047.xyz',
+      timeout: 10000,
+    },
+    },
+      id: 'https://www.1314047.xyz/suiji',
+      name: '随机密码',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://www.1314047.xyz/suiji',
+      timeout: 10000,
+    }, 
+      id: 'https://cw.1314047.xyz/',
+      name: '生活日常',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://cw.1314047.xyz/',
+      timeout: 10000,
+    }, 
+    }, 
+      id: 'https://cw.1314047.xyz/jiedian/',
+      name: '节点列表',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://cw.1314047.xyz/jiedian/',
+      timeout: 10000,
+    }, 
+    }, 
+      id: 'https://cw.1314047.xyz/app/',
+      name: '资源中心',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://cw.1314047.xyz/app/',
+      timeout: 10000,
+    },   
+    }, 
+      id: 'https://cw.1314047.xyz/ip/',
+      name: 'IP查询',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://cw.1314047.xyz/ip/',
+      timeout: 10000,
+    },      
   ],
   notification: {
     // [Optional] apprise API server URL
