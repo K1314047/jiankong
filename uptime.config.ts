@@ -50,14 +50,21 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: '809098.xyz',
-      name: 'Blog',
+      id: 'alpha.001100.best',
+      name: 'G.Ark Docs',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
+      target: 'https://alpha.001100.best',
+      timeout: 10000,
+    },
+    {
+      id: 'duan.1314047.xyz',
+      name: '短域名',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://duan.1314047.xyz',
       timeout: 10000,
     },
   ],
