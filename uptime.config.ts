@@ -1,6 +1,6 @@
 const pageConfig = {
   // Title for your status page
-  title: "数字套利 •「AM科技」's Status Page",
+  title: "G.Ark's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://1314047.xyz', label: 'Home Page' },
