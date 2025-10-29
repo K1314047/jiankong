@@ -67,6 +67,7 @@ const workerConfig = {
       target: 'https://duan.1314047.xyz',
       timeout: 10000,
     },
+    {
       id: 'blog.1314047.xyz',
       name: 'Blog',
       // `method` should be `TCP_PING` for tcp monitors
@@ -75,6 +76,7 @@ const workerConfig = {
       target: 'https://blog.1314047.xyz',
       timeout: 10000,
     },
+    {
       id: 'nav.1314047.xyz',
       name: '导航站',
       // `method` should be `TCP_PING` for tcp monitors
@@ -83,7 +85,7 @@ const workerConfig = {
       target: 'https://nav.1314047.xyz',
       timeout: 10000,
     },    
-    },
+    {
       id: 'pyq.1314047.xyz',
       name: '朋友圈',
       // `method` should be `TCP_PING` for tcp monitors
@@ -92,7 +94,7 @@ const workerConfig = {
       target: 'https://pyq.1314047.xyz',
       timeout: 10000,
     },
-    },
+    {
       id: 'https://www.1314047.xyz/suiji',
       name: '随机密码',
       // `method` should be `TCP_PING` for tcp monitors
@@ -101,6 +103,7 @@ const workerConfig = {
       target: 'https://www.1314047.xyz/suiji',
       timeout: 10000,
     }, 
+    {
       id: 'https://cw.1314047.xyz/',
       name: '生活日常',
       // `method` should be `TCP_PING` for tcp monitors
@@ -109,7 +112,7 @@ const workerConfig = {
       target: 'https://cw.1314047.xyz/',
       timeout: 10000,
     }, 
-    }, 
+    {
       id: 'https://cw.1314047.xyz/jiedian/',
       name: '节点列表',
       // `method` should be `TCP_PING` for tcp monitors
@@ -118,7 +121,7 @@ const workerConfig = {
       target: 'https://cw.1314047.xyz/jiedian/',
       timeout: 10000,
     }, 
-    }, 
+    {
       id: 'https://cw.1314047.xyz/app/',
       name: '资源中心',
       // `method` should be `TCP_PING` for tcp monitors
@@ -127,7 +130,7 @@ const workerConfig = {
       target: 'https://cw.1314047.xyz/app/',
       timeout: 10000,
     },   
-    }, 
+    {
       id: 'https://cw.1314047.xyz/ip/',
       name: 'IP查询',
       // `method` should be `TCP_PING` for tcp monitors
