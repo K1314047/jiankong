@@ -58,6 +58,24 @@ const workerConfig = {
       target: 'https://alpha.001100.best',
       timeout: 10000,
     },
+   {
+      id: 'new.1314047.xyz',
+      name: 'Binance Alpha 查询',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https:/new.1314047.xyz',
+      timeout: 10000,
+    },
+   {
+      id: 'blog.iove.eu.org',
+      name: '技术博客分享',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://blog.iove.eu.org',
+      timeout: 10000,
+    },
     {
       id: 'duan.1314047.xyz',
       name: '短域名',
