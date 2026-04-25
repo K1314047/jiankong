@@ -20,13 +20,13 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'new.1314047.xyz',
+      id: '1314047.xyz',
       // `name` is used at status page and callback message
-      name: '币安空投查询',
+      name: 'G.ArkWeb3投资撸毛',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://new.1314047.xyz',
+      target: 'https://1314047.xyz',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
@@ -77,21 +77,21 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: 'blog.1314047.xyz',
+      id: 'blog.001100.best',
       name: 'Blog',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://blog.1314047.xyz',
+      target: 'https://blog.001100.best',
       timeout: 10000,
     },
     {
-      id: 'nav.1314047.xyz',
+      id: 'nav.001100.best',
       name: '导航站',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://nav.1314047.xyz',
+      target: 'https://nav.001100.best',
       timeout: 10000,
     },    
     {
