@@ -95,12 +95,12 @@ const workerConfig = {
       timeout: 10000,
     },    
     {
-      id: 'pyq.1314047.xyz',
+      id: 'g1314047.github.io',
       name: '朋友圈',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://pyq.1314047.xyz',
+      target: 'https://g1314047.github.io',
       timeout: 10000,
     },
     {
